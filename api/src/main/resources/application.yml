@@ -18,19 +18,21 @@ management:
 springdoc:
   version: '@springdoc.version@'
   api-docs:
-    groups:
-      enabled: true
+    enabled: true
   swagger-ui:
+    enabled: true
     display-request-duration: true
     groups-order: DESC
     operationsSorter: method
     disable-swagger-default-url: true
     use-root-path: true
   show-actuator: true
+  use-management-port: true
   group-configs:
   - group: application
     paths-to-match: /api/application/**
-
+  - group: infrastructure
+    paths-to-match: /api/infrastructure/**
 # server.port: 8080
 # management.server.port: 9001
 # management.server.address: 127.0.0.1

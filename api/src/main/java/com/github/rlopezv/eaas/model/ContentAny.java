@@ -1,4 +1,4 @@
-package com.github.rlopezv.eeas.model;
+package com.github.rlopezv.eaas.model;
 
 import java.util.Arrays;
 import java.util.Objects;
@@ -7,6 +7,7 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 
 import io.swagger.v3.oas.annotations.media.Schema;
 
+@Schema(description = "Contains any")
 public class ContentAny   {
 
     @JsonProperty("type_url")

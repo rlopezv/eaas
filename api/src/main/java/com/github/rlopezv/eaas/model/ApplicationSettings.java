@@ -1,7 +1,11 @@
-package com.github.rlopezv.eeas.model;
+package com.github.rlopezv.eaas.model;
+
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
+import io.swagger.v3.oas.annotations.media.Schema;
+
+@Schema(description = "Contains application Settings")
 public class ApplicationSettings   {
     @JsonProperty("appLabelKey")
     private String appLabelKey;

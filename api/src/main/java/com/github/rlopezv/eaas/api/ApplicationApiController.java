@@ -1,4 +1,4 @@
-package com.github.rlopezv.eeas.api;
+package com.github.rlopezv.eaas.api;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

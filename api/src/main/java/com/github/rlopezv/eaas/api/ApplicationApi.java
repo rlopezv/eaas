@@ -1,10 +1,10 @@
-package com.github.rlopezv.eeas.api;
+package com.github.rlopezv.eaas.api;
 
 import java.util.Optional;
 
-import com.github.rlopezv.eeas.model.ApplicationSettings;
-import com.github.rlopezv.eeas.model.ApplicationVersion;
-import com.github.rlopezv.eeas.model.RuntimeError;
+import com.github.rlopezv.eaas.model.ApplicationSettings;
+import com.github.rlopezv.eaas.model.ApplicationVersion;
+import com.github.rlopezv.eaas.model.RuntimeError;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
